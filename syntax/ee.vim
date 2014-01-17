@@ -16,10 +16,9 @@ syn keyword Statement       out
 syn keyword Statement       procedure
 syn keyword Statement       program
 syn keyword Statement       return
-
-syn match	Number	    "\<\d\+"
-syn match	Float		"\d\+\.\d*"
-syn match   Comment     "//.*"
-syn region  String      start=+"+ end=+"+
+syn match   Number          "\<\d\+"
+syn match   Float           "\d\+\.\d*"
+syn match   Comment         "//.*"
+syn region  String          start=+"+ end=+"+
 
 let b:current_syntax = "ee"
