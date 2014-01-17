@@ -7,11 +7,11 @@ syn keyword Boolean         true false
 syn keyword Repeat          for
 syn keyword Conditional     if then else
 syn keyword Operator        not
-syn keyword Statement       is
 syn keyword Statement       begin
 syn keyword Statement       end
 syn keyword Statement       global
 syn keyword Statement       in
+syn keyword Statement       is
 syn keyword Statement       out
 syn keyword Statement       procedure
 syn keyword Statement       program
