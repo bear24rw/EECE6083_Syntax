@@ -21,4 +21,4 @@ syn match   Float           "\d\+\.\d*"
 syn match   Comment         "//.*"
 syn region  String          start=+"+ end=+"+
 
-let b:current_syntax = "ee"
+let b:current_syntax = "src"
